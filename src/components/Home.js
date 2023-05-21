@@ -8,7 +8,7 @@ const Home = () => {
 
     const submitHandler = e =>{
         e.preventDefault();
-        fetch(`http://www.omdbapi.com/?s=${search}&apikey=263d22d8`).then(
+        fetch(`http://www.omdbapi.com/?i=${search}&apikey=92478cd9`).then(
             response => response.json()
           ).then(value => {setData(value.Search);
           })
