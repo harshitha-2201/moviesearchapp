@@ -32,7 +32,8 @@ const Home = () => {
               <div className="card-body">
                 <h4 className="card-title">Name : {movie.Title}</h4>
                 <h5 className="card-title">Realsed : {movie.Year}</h5>
-                <h5 className="card-title">Genres :{movie.Type}</h5>
+                <h5 className="card-title">Genres :{movie.Genre}</h5>
+                <h5 className="card-title">Genres :{movie.Director}</h5>
              </div>
             </div>
         </div>
