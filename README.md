@@ -30,3 +30,4 @@ This project was bootstrapped with Create React App.
 + Bootstrap components
 + Fully Open Source
 + Hosted on Netlify
++ Api Integration
